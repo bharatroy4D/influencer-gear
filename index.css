@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@400;500;700&display=swap');
+
+  
+    *{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+      
+      }
+      /* header style */
+      header{
+        width: 90%;
+        margin: 0 auto;
+      }
+      
+      .navber{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+
+
+      }
+      
+      .link-content ul{
+        display: flex;
+      }
+      ul>li{
+        margin-left: 25px;
+        list-style: none;
+
+      }
+      .header-content{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .para-discription{
+        margin-top: 15px;
+      }
+      .primary-btn{
+        height: 30px;
+        width: 120px;
+        margin-top: 10px;
+        border-radius: 15px;
+        font-size: 15px;
+        background-color: rgb(152, 20, 20);
+        color: white;
+        border: none;
+      }
+      .headere-img{
+        background-image: url(images/Circle\ design.svg);
+        
+      }
+        
+        /* product-container section  */
+        .first-section{
+            width:80%;
+            margin: 0 auto;
+        }
+        .product-header{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .product-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 30px;
+        gap: 20px;
+        }
+        .items{
+            margin: 0 auto;
+            /* border: 2px solid red; */
+            box-shadow: 15px 15px whitesmoke;
+            background-color: aliceblue;
+            
+        }
+        .product-title,.product-price,p{
+            padding:2px 10px;
+            
+        }
+        .secondary-btn{
+            margin-top: 30px;
+            font-size: 17px;
+            border: none;
+            text-align: right;
+            background-color: white;
+        }
+        /* second section start */
+        .second-section{
+
+            width: 85%;
+            margin: 0 auto;
+        }
+        .coloumn-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+        }
+      .coloumn{
+        width: 50%;
+      }
+      .coloumn-discription{
+        padding: 10px 0;
+      }
+      .third-btn{
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        background-color: darkblue;
+        padding: 5px;
+        border-radius: 5px;
+        color:aliceblue;
+        border: none;
+      }
+      /* footer section start */
+      footer{
+        margin-top: 50px;
+        background-color:black;
+        height: 200px;
+      }
+      .footer-content{
+        padding-top: 40px;
+      }
+      .footer-title,.footer-discription{
+        text-align: center;
+        padding: 8px 0;
+        color: aliceblue;
+
+      }
+      .footer-icon{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+      }
+      .footer-icon a{
+        font-size: 30px;
+        margin-left: 20px;
+        color: aliceblue;
+      }
+      @media screen and (max-width:576px) {
+        /* header section start */
+        .navber{
+          flex-direction: column;
+        }
+        .nav-title{
+          text-align: center;
+        }
+        .link-content{
+          padding-top: 20px;
+        }
+        .header-content{
+          flex-direction: column;
+          flex-direction: column-reverse;
+        }
+        .header-img{
+          
+          
+        }
+        .header-title{
+          text-align: center;
+          padding-top: 20px;
+        }
+        .para-discription{
+          text-align: center;
+        }
+        .button-container{
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px;
+        }
+        .first-section{
+          width: 100%;
+          margin: 0 auto;
+      }
+
+        .product-container{
+          grid-template-columns: repeat(1,1fr);
+        }
+        .coloumn-container{
+          flex-direction: column;
+          
+        }
+      
+        }
+        .coloumn{
+          width: 100%;
+          margin: 0 auto;
+        }
+        .col-details{
+          margin-top: 25px;
+        }
+        .coloumn-discription,.coloumn-title{
+          text-align: center;
+
+        }
+        
+
+     
+      }
+      
+
+
+
+      
+      
